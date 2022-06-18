@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- googleFont -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Philosopher&family=Satisfy&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.0.0-alpha.1/axios.min.js" integrity="sha512-xIPqqrfvUAc/Cspuj7Bq0UtHNo/5qkdyngx6Vwt+tmbvTLDszzXM0G6c91LXmGrRx8KEPulT+AfOOez+TeVylg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <title>Open Wearher</title>
+    <link rel="stylesheet" href="src/Style.css">
+    <link rel="stylesheet" href="src/effect.css">
+</head>
+<body>
+    <div class="contenar">
+
+        <div id='stars'></div>
+        <div id='stars2'></div>
+        <div id='stars3'></div>
+        <div id='title'></div>
+
+
+        <div class="content">
+            <div class="inputs">
+                <input type="text" name="city" class="getCity" id="city">
+                <button class="Search">Search</button>
+            </div>
+            <div class="output" id="output">
+                <div class="simbole-div">
+                     <h2 class="simbole">wea<i class="fa-solid fa-cloud-bolt"></i>her</h2>
+                                 <!--------Animation hr--------->
+                         <div class="animation-hr">
+                             <hr class="hr1">
+                             <hr class="hr2">
+                             <hr class="hr3">
+                             <hr class="hr4">              
+                         </div> 
+                </div>
+               
+               <p class="errMessage">You searched with the wrong name!</p> 
+               
+                <div id="Icon"></div>
+                <h2 class="city-name"></h2>
+                <h1 class="temperaturs"></h1>
+                <div class="humidity-wind">
+                    <p class="humidity"></p>
+                    <p class="wind"></p>                 
+                </div>
+
+            </div> 
+        </div>
+    </div>
+
+    <script src="src/contoler.js"></script>
+</body>
+</html>
