@@ -241,6 +241,7 @@ body{
         height: 40px;
         transform: scale(1.1);
         width:85%;
+        margin-top: 34px;
     }
     .inputs .getCity{
         font-size: 20px;
